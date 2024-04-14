@@ -1,4 +1,6 @@
 require 'spec_helper'
+require 'active_support'
+require 'active_support/core_ext'
 
 describe Subscription do
   describe '#has_mentoring?' do
